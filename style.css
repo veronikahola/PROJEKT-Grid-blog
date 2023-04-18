@@ -117,8 +117,8 @@ h2 {
 	text-align: left;
 }
 
-header h1 {
-	font-size: 90px;
+h1 {
+	font-size: 85px;
 	margin: 50px 0px;
 }
 
@@ -127,8 +127,8 @@ header h1 {
 }
 
 h2 {
-	font-size: 60px;
-	margin: 50px 0px 0px 0px;
+	font-size: 55px;
+	margin: 30px 0px 20px 0px;
 }
 
 p {
@@ -152,10 +152,10 @@ figcaption {
 /* blockquote */
 blockquote {
 	text-align: center;
-	font-size: 36px;
-	margin: 60px 0px;
+	font-size: 35px;
+	margin: 40px 0px 50px 0px;
 
-	background: -webkit-linear-gradient(#636e72, #edf3f5);
+	background: -webkit-linear-gradient(#636e72ca, #edf3f5);
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
 }
@@ -164,7 +164,7 @@ blockquote::before,
 blockquote::after {
 	content: "";
 	display: block;
-	width: 150px;
+	width: 120px;
 	height: 2px;
 	background-color: var(--limetka);
 }
@@ -210,4 +210,20 @@ blockquote::after {
 
 .tip img {
 	width: 100%;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+/* patička */
+footer {
+	color: var(--seda);
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+footer a {
+	color: var(--seda);
 }
